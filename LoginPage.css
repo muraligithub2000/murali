@@ -1,0 +1,49 @@
+/* .login-background {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBG 1s ease infinite;
+    height: 100vh;
+  }
+  
+  @keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+   */
+
+   .login-background {
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Animated Dog */
+.dog-gif {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 150px;
+  animation: runDog 10s linear infinite;
+}
+
+@keyframes runDog {
+  0% { left: -200px; }
+  100% { left: 100%; }
+}
+
+/* Dancing Character */
+.dancer-gif {
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  width: 150px;
+  animation: bounce 2s infinite ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
